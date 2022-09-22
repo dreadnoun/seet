@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+}
+body {
+    background: linear-gradient(-45deg,rgb(255, 0, 128),purple);
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.block {
+    width: 600px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 35px;
+    box-shadow: 0px 0px 20px black;
+    text-align: center;
+    align-items: center;
+    position: relative;
+}
+.h1 {
+    margin-top: 80px;
+}
+.ava {
+    background-image: url('./ava/spiderman.jpg');
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 85px;
+    border: 3px solid purple;
+    position: absolute;
+    top: -40px;
+    left: 240px;
+    box-shadow: 0 5px 11px rebeccapurple;
+}
+.locate {
+    display: flex;
+    margin-left: 235px;
+}
+.bank{
+    background-image: url('./locate/bank.png');
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block2 {
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.box1 {
+width: 85px;
+height: 35px;
+}
+.box2 {
+    width: 85px;
+    height: 35px;
+    margin-left: 45px;
+}
+.box3 {
+    width: 85px;
+    height: 35px;
+    margin-left: 45px;
+}
+.box4 {
+    width: 85px;
+    height: 35px;
+    margin-left: 45px;
+}
+/* block3 */
+.block3 {
+    display: flex;
+    padding-top: 45px;
+}
+.box5 {
+width: 50px;
+height: 50px;
+margin-left: 55px;
+border-radius: 15px;
+background-image: url('./apps/painterest.png');
+background-size: cover;
+}
+.box6 {
+    width: 50px;
+height: 50px;
+margin-left: 20px;
+border-radius: 15px;
+background-image: url('./apps/obs.png');
+background-size: cover;
+}
+.box7 {
+    width: 50px;
+height: 50px;
+border-radius: 15px;
+margin-left: 20px;
+background-image: url('./apps/twitch.png');
+background-size: cover;
+}
+.box8 {
+    width: 50px;
+height: 50px;
+border-radius: 15px;
+margin-left: 20px;
+background-image: url('./apps/spotify.png');
+background-size: cover;
+}
+.box9 {
+    width: 50px;
+height: 50px;
+border-radius: 15px;
+margin-left: 20px;
+background-image: url('./apps/steam.jpg');
+background-size: cover;
+}
+.box10 {
+    width: 50px;
+height: 50px;
+border-radius: 15px;
+margin-left: 20px;
+background-image: url('./apps/discord.png');
+background-position: -25px 0px ;
+background-size: cover;
+}
+.box11 {
+    width: 50px;
+height: 50px;
+border-radius: 15px;
+margin-left: 20px;
+background-image: url('./apps/wk.png');
+background-size: cover;
+}
+/* buttons */
+.buttons {
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+.b1 {
+    width: 150px;
+    padding: 20px;
+    background: linear-gradient(45deg, green,lime);
+    cursor: pointer;
+    transition: 0.15s;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.b1:hover {
+    background: linear-gradient(45deg, lime,green);
+}
+.b2 {
+    width: 150px;
+    padding: 20px;
+    background: linear-gradient(45deg, orange,yellow);
+    cursor: pointer;
+    margin-left: 85px;
+    transition: 0.15s;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.b2:hover {
+    background: linear-gradient(45deg, yellow,orange);
+}
